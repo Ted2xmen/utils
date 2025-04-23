@@ -1,0 +1,44 @@
+{
+  "name": "@ted2xmen/utils",
+  "version": "0.1.0",
+  "description": "Utility functions for React applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "utils",
+    "dayjs",
+    "typescript",
+    "date",
+    "model",
+    "data-transformation"
+  ],
+  "author": "ted2xmen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ted2xmen/utils"
+  },
+  "homepage": "https://github.com/ted2xmen/utils#readme",
+  "bugs": {
+    "url": "https://github.com/ted2xmen/utils/issues"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}
